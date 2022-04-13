@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbarstyle{
+    background-color: rgb(197, 245, 245) !important;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: black;
+}
+.row p{
+    color: rgb(118, 117, 117);
+    font-size: 2rem;
+    font-weight: 700;
+}
+.row h1 span{
+    color: rgb(111, 232, 232);
+}
+
+.front-main{
+    margin-top: 10vh;
+}
+.main_header_left{
+margin-top: 10vh;
+}
+.d-block{
+    border-radius: 12px;
+}
+.btnstyle{
+    color: black;
+    background-color: rgb(119, 212, 212);
+    padding: 4px;
+    border-radius: 4px;
+}
+.navbar a{
+color: rgb(105, 104, 104) !important;
+}
+.navbar-brand i{
+    color: rgb(105, 104, 104) ;
+}
+footer{
+position:absolute;
+    bottom: 0;
+    left: 45%;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+#cityname{
+    background-color:rgb(230, 255, 255);
+    color: white;
+    border-radius: 12px;
+    padding: 3px;
+    width: 80%;
+    
+}
+
+.weather-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+#cityname{
+    color: black !important;
+}
+.search{
+    width: 100%;
+    margin-top: 10vh;
+    color: black;
+}
+.weather-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto !important;
+    width: 50%;
+}
+.temp-detail{
+    margin-top:5vh;
+    width: 85%;
+    color: black;
+    background-color: rgb(230, 255, 255);
+border-radius: 15px;
+
+}
+.top_layer{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#submitbtn{
+    color: black;
+    background-color: rgb(230, 255, 255);
+    border-radius: 10px;
+    padding: 2px;
+}
+
+.viewdisplay{
+    display: none;
+}
+.top_layer p{
+    font-size: 2rem;
+}
+.middle_layer{
+    display: flex;
+    justify-content: center;
+
+}
+.middle_layer p{
+    margin: 4vh;
+    font-size: 2rem;
+
+}
